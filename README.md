@@ -7,5 +7,14 @@ Brevemente, este repositorio tiene las partes básicas de como servir un modelo 
 
 El código principal está en la Jupyter Notebook y existen dos .py con el código para sacar andando local y Deepnotemente este experimento.
 
+Algunos links relevantes:
+
+Para levantar esto mismo en AWS:
+https://aws.amazon.com/es/blogs/machine-learning/creating-a-machine-learning-powered-rest-api-with-amazon-api-gateway-mapping-templates-and-amazon-sagemaker/
+
+
+Sobre las rutas de Flask:
+https://hackersandslackers.com/flask-routes/
+
 
 Enjoy!
