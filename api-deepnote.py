@@ -2,11 +2,12 @@
 
 
 ##############################################################################################
-### ESTA VERSIÓN ES PARA EJECUTAR LOCAL EH, OJO QUE NO VA A FUNCIONAR DESDE DEEEPNOTEEEEEE ###
+### ESTA VERSIÓN SI ES PARA EJECUTAR EN DEEEPNOTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE ###
 ##############################################################################################
 
 
-#https://www.datacamp.com/tutorial/machine-learning-models-api-python
+
+# From https://www.datacamp.com/tutorial/machine-learning-models-api-python
 from flask import Flask, request, jsonify
 import flask_monitoringdashboard as dashboard # docu en https://flask-monitoringdashboard.readthedocs.io/en/latest/configuration.html y https://flask-monitoringdashboard.readthedocs.io/en/latest/functionality.html VER CONFIG EN https://github.com/flask-dashboard/Flask-MonitoringDashboard/blob/master/config.cfg
 import pickle
@@ -65,6 +66,5 @@ def hello_not_really_stranger(nombre):
     return f"Hola {nombre}! viste que tremenda API?"
 
 if __name__ == '__main__':
-    port = 12345 # se puede cambiar, por supuesto
 
-    app.run(port=port, debug=True)
+    app.run(host='0.0.0.0', port=8080)
