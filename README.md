@@ -22,10 +22,10 @@ Enjoy!
 
 TO DO:
 
-1. Agregar versión con predicción batcheada (que se mande ID y vuelva predicción)
-2. Agregar A/B testing sobre algún modelo
-3. Agregar A/B testing con thompson sampling
-4. Guardar Request enviada y el Response obtenido
-5. Agregar feedback (que llegue la clase real)
-6. Agregar Online Learning (yapa: ttps://github.com/online-ml/awesome-online-machine-learning)
-7. Agregar endpoint de reinicio de modelos (para arrancar del escenario base, sin los modelos que aprendan online)
+-[] 1. Agregar versión con predicción batcheada (que se mande ID y vuelva predicción)
+-[] 2. Agregar A/B testing sobre algún modelo
+-[] 3. Agregar A/B testing con thompson sampling
+-[] 4. Guardar Request enviada y el Response obtenido
+-[] 5. Agregar feedback (que llegue la clase real)
+-[] 6. Agregar Online Learning (yapa: ttps://github.com/online-ml/awesome-online-machine-learning)
+-[] 7. Agregar endpoint de reinicio de modelos (para arrancar del escenario base, sin los modelos que aprendan online)
